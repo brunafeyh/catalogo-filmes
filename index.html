@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Portifólio de Bruna da Silva Feyh, desenvolvedora Full Stack" />
+    <meta name="author" content="Bruna da Silva Feyh" />
+    <meta property="og:description" content="Portifólio de Bruna a Silva Feyh, desenvolvedora Full Stack" />
+    <meta property="og:image" content="brunafeyh.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="keywords" content="developer, programação, dev, desenvolvedor, programador, html, css, javascript, nodejs, reactjs, react, github, frontend, front-end" />
+    <meta name="robots" content="index" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Gemunu+Libre:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="./assets/js/main.js" defer></script>
+
+    <title>Bruna Feyh // Galeria</title>
+  </head>
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <a class="logo close" href="#home"> cinemashopping </a>
+
+        <div class="menu">
+          <ul>
+            
+            <li>
+              <a id="projectsNav" class="close" href="#projects">Catálogo</a>
+            </li>
+            <li>
+              <a id="knowledgeNav" class="close" href="#knowledge"
+                >Contato</a
+              >
+            </li>
+
+            <li>
+              <a id="contactNav" class="close" href="#contact">Como chegar</a>
+            </li>
+          </ul>
+
+         >
+            <li>
+              <a
+                href="https://www.instagram.com/brunadasilvafeyh/"
+                title="Instagram"
+                target="_blank"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          class="open-menu open"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          class="close-menu close"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Olá 👋🏾</h4>
+            <h1>Seja bem-vindo ao nosso catálogo de filmes</h1>
+          </header>
+          <div class="content">
+            <p class="line typing">visite cinemashopping</p>
+            <a class="button" href="#contact"> Entre em contato conosco </a>
+          </div>
+        </div>
+<div class="col-b">
+          <img
+            src="https://previews.dropbox.com/p/thumb/ACBWSj2u9t4EoULyN1L5Mdwczb9R7AIoDiGRvK8z9zEsbHN5BkScR2Wq9QWvBPZ4Oz40Ycs6IUxSr-aVpiHAMCv6f5gi_gFYyypL8kBo2zNlCg1QLqmNWTbN_hJ0qroJpmGj4hRoqon32sHDiDBb_Eux6Y-e3yxQYePnN5huL6ALK-j5tBoXWOeg89Arph_N9T_Yqwkj6BOGTxtNxOgDUWBveFZMgYPRqMDFHA9KvLYUYDfY4Qujalsny0zokRiQPVC97pXjwltncLdqpFTU1GwpaqUNNs6n12JjCkq18-LJ-l9caI3dJnHMrYuX-sB3VP7XAGNavMQjoS0oz1-tuJVt/p.png"
+            alt="Imagem de Bruna Feyh no PTI"
+          />
+        </div>
+        
+  
+    </section>
+ <section id="knowledge">
+      <div class="wrapper">
+        <header>
+          <h2>Catálogo</h2>
+        </header>
+        <div class="content">
+          
+        <div class="col-b" style="margin-bottom: 80px;">
+          
+                   <p style="font-size: 25px;">Creed 2</p>
+          <p style="font-size: 20px;">Estreia: 3 de março</p>
+          
+              <style>
+        /* Estilos CSS */
+        .imagem-com-espaco {
+            margin: 10px; /* Adicione a quantidade de espaço desejada em pixels */
+        }
+    </style>
+          <img
+    src="https://previews.dropbox.com/p/thumb/ACCV96rbUeQBau2CgBN9mDNfxZRtktiZUBw4vy7sCA-zQyzVA8QB-6UdPTJA1M6QMxOzt7u8t_34MP86X6HaVa0t4MdvSzlXMJ9LOgJYIz4t5Mn2lX8HsoNVvXPW1ypScoabPZijLU_gS7MCGhPOF-trdVn2oCf8kRshDbcCzPRdit2IxwE4hdVNRuj3ZJv1UzurH_w2RPHiNkCH7PTqkYcBN8kHF1Qmr6fu2D3PPHWt1kiWblslXatF9iS030ue7sdAOPfmNGMdchbHKiNy7Ue9NglJ1xPCYZm97gXuWrARKlb5PeVmGbEEkQ6JOi3MiH-1t8C-iG-BaE59fSaypzxs/p.jpeg"
+            alt="creed 2" width="600" height="350" class="imagem-com-espaco"
+          />
+          <p style="text-align: justify;">Em Creed III, continuação do longa de 2018, Michael B. Jordan volta a interpretar Adonis Creed. Depois de dominar o mundo do boxe, Adonis Creed vem prosperando tanto na carreira quanto na vida familiar. Quando um amigo de infância e ex-prodígio do boxe, Damian (Jonathan Majors), ressurge após cumprir uma longa sentença na prisão, ele está ansioso para provar que merece sua chance no ringue. Damian pede a ajuda de Creed para que ele o ajude a voltar para os campeonatos de luta. Apesar de tudo, dezoito anos na prisão mudam a pessoa e Damian não está nada satisfeito que Creed “tomou seu lugar” no ringue de boxe. Dois velhos amigos então vão lutar para enfrentar seus passados juntos e enfrentar o futuro que os aguarda. Para acertar as contas, Adonis deve colocar seu futuro em risco para lutar contra Damian – um lutador que não tem nada a perder.</p>
+          </div>
+          
+           <div class="col-b" style="margin-bottom: 80px;">
+                   <p style="font-size: 25px;">Aguamam e o Reino Perdido</p>
+
+          <p style="font-size: 20px;">Estreia: 17 de março</p>
+          
+              <style>
+        /* Estilos CSS */
+        .imagem-com-espaco {
+            margin: 10px; /* Adicione a quantidade de espaço desejada em pixels */
+        }
+    </style>
+          <img
+    src="https://previews.dropbox.com/p/thumb/ACB38AUYp00jfaPqovnT_2z7J_tKLJ7uom2c-lvyg20HC6Ft9_E6VjZ9BHEV1l6SuTqlX-84jWmXBsWKTZJP44dukhN2e1wJvnNZ8_FEVE-vAALNd1GR_cZ6IQZAaD6cgnZ3YLpHR0rd4qVmBEwFdWEYAnpo3LfnRau40WUngZ_opOFGnbkhyffxEhHJkyyhKx3F85QMaQ5iEGvV4moUFF7rcPLjChuYe-S07r5IdwcBQ44zkX39Xg38bwDe8cMOyzI99LECIhrDWf08JdK7vE1_ir_UT25BMwRwhy0wANRrfOt-F_BgwUWT2qtz5J0ltePyfIc_mg_4eotPsYKyMgkz/p.jpeg"
+            alt="creed 2" width="600" height="350" class="imagem-com-espaco"
+          />
+          <p style="text-align: justify;">Com o retorno de Jason Momoa como o herói, Aquaman e o Reino Perdido trará às telonas do cinema a sequência da história iniciada no primeiro filme lançado em 2018. Embora a sinopse oficial ainda não tenha sido divulgada, já se sabe que boa parte do elenco, incluindo Amber Heard, Patrick Wilson, Yahya Abdul-Mateen II e Willem Dafoe, retornam ao projeto comandado pelo cineasta James Wan.</p>
+          </div>
+          
+          
+                     <div class="col-b" style="margin-bottom: 80px;">
+                   <p style="font-size: 25px;">Shazam 2 Fúria dos Deuses</p>
+
+          <p style="font-size: 20px;">Estreia: 17 de março</p>
+          
+              <style>
+        /* Estilos CSS */
+        .imagem-com-espaco {
+            margin: 10px; /* Adicione a quantidade de espaço desejada em pixels */
+        }
+    </style>
+          <img
+    src="https://previews.dropbox.com/p/thumb/ACBxcCyLSpYfq_NvYYdGInjjOKzcmKfDMof0YsvQdLXD5-H86T7uPzEyuefxkpmYExdU_KHT9nRmx_yMoEn4cvoL249wEUxMnvy23ZRGBrh53fQxWLWFMPd4gMMCpENJu4F-WXpYZ5t2gPePaz0Fduek_1aEUMber0nOmU4qQlqtEmZ0yDTHgFB0wAbKOMy2Fd0GX97FL4GBemU9thw3BJUriro5y0FxKt-JHlXkHXjBGpUi9oQFXcYksX5RUcVE0I3N-OmGZLvSFERBR__L5ZQWg4PtEGDiR7TWq5g3LIBVLxGCcEDwNT4xWHdqVtneTb2qrXcjIU2iEBqOY9sC8FKS/p.jpeg"
+            alt="creed 2" width="600" height="350" class="imagem-com-espaco"
+          />
+          <p style="text-align: justify;">Dando sequência ao filme de 2019, Zachary Levi retorna como o super-herói titular, que, na verdade, consiste no alter-ego do adolescente Billy Batson. Em sua nova aventura ao lado de seus aliados, o personagem terá de enfrentar a fúria de Héspera (Helen Mirren) e Kalypso (Lucy Liu), ambas figuras centradas na mitologia grega. </p>
+          </div>
+                    
+                     <div class="col-b" style="margin-bottom: 80px;">
+                   <p style="font-size: 25px;">John Wick 4</p>
+
+          <p style="font-size: 20px;">Estreia: 23 de março</p>
+          
+              <style>
+        /* Estilos CSS */
+        .imagem-com-espaco {
+            margin: 10px; /* Adicione a quantidade de espaço desejada em pixels */
+        }
+    </style>
+          <img
+    src="https://previews.dropbox.com/p/thumb/ACCDzgtWQUF8PusbmBJJNGrjZ_mJhrpW4RJbtBBv67wJ5L3ilow_gjnh3mJul3iyuUykwG_Y9P2DNa-_tgMhqCbz5M3XJPboQsESgqqJkxWYuhlScgYRue0iP8lg_wR1AB2FJxWdAYiZql_Da2z2zGAGdqDoh_fmvsm9-5CVbmL0wGMZR7c_nqmyJ6Z3bP05_Oz7_-ASnoW4Ew4I3y_n29sDYjqTKn_zuJnm_9Rk68I3NEcss94-K4IBrLkeUvuYENQQQYhVzXLBjPhxomsmGXg_qaGHKvp6cLwctr2om1cm6JVpbIne_Bsa8R08NG9vw75fePSy3ShPTTEMwNlJ13zH/p.jpeg"
+            alt="creed 2" width="600" height="350" class="imagem-com-espaco"
+          />
+          <p style="text-align: justify;">John Wick 4: Baba Yaga, o quarto longa da franquia de ação estrelado por Keanu Reeves, promete ser ainda maior e trazer intensas cenas de lutas com o personagem-título. Na trama, John Wick está pronto para derrotar a Alta Cúpula, mas para conquistar sua liberdade, o assassino deverá enfrentar um inimigo com poderosas alianças.</p>
+          </div>
+          
+      </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+    <section id="contact">
+      <div class="wrapper">
+          <header>
+            <h2>Contato</h2>
+          </header>
+        
+          <div class="content">
+           
+                </a>
+              
+            
+      </div>
+         <div class="content">
+            <ul>
+              <li>
+                
+                <a href="mailto: bruna.feyh@unioeste.br" title="Enviar e-mail">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                      stroke="#00856F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22 6L12 13L2 6"
+                      stroke="#00856F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+ <p>
+              Email institucional:  cinemashoppingsupport.zendesk.com<br />
+          
+          </p>
+                </a>
+              </li>
+              
+
+            </ul>
+            
+            
+      </div>
+        
+    </section>
+    
+    
+    <section id="contact">
+      <div class="wrapper">
+          <header>
+            <h2>Como chegar</h2>
+          </header>
+        <div class="content">
+           
+                </a>
+              
+            
+      </div>
+        
+ <p>
+              Endereço: Av. das Cataratas, 3570 - Vila Yolanda, Foz do Iguaçu - PR, 85853-000<br />
+          
+          </p>
+                </a>
+              </li>
+              
+
+            </ul>
+            
+            
+      </div>
+        
+    </section>
+      
+       <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a
+                href="https://www.instagram.com/brunadasilvafeyh/"
+                title="Instagram"
+                target="_blank"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toggle">
+      <input type="checkbox" id="sw-checkbox" />
+      <label for="sw-checkbox" title="Mudar tema">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="20"
+          height="20"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="20"
+          height="20"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"
+            fill="rgba(255,255,255,1)"
+          />
+        </svg>
+      </label>
+    </div>
+       
+
+    <a id="backToTopButton" title="Voltar ao topo" href="#home">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#00856F" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="logo" href="#home"> cinemashopping </a>
+
+          <p>
+            ©2023 por cinemashopping. <br />
+          </p>
+        </div>
+        <script src="./assets/js/main.js"></script>
+        </body>
+</html
